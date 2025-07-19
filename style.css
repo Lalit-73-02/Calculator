@@ -1,0 +1,71 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('beauty.jpg');
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 20px;
+    width: 20%;
+    backdrop-filter: blur(10px);              
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.input {
+    background: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+    background-color: #000;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
